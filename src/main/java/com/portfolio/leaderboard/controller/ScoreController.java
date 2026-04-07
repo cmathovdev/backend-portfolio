@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/scores")
-@CrossOrigin
+@CrossOrigin(origins = "https://cmathovdev.github.io")
 public class ScoreController {
 
     private final ScoreService scoreService;
